@@ -1,0 +1,14 @@
+{
+	"HOME": {
+		"GET_STARTED": "Get started by editing",
+		"SAVE_CHANGES": "Save and see your changes instantly.",
+		"SERVER_LOG": "Log on server",
+		"CLIENT_LOG": "Log on client",
+		"LEARN": "Learn",
+		"EXAMPLES": "Examples",
+		"NEXT_DOC_LINK": "Go to nextjs.org"
+	},
+	"BLOG": {
+		"RENDERED_AT": "Rendered at {date}"
+	}
+}
