@@ -2,7 +2,7 @@ import { format } from 'date-fns'
 import { env } from './env'
 
 function devConsole(method: (...data: unknown[]) => void, ...args: unknown[]) {
-	if (env.DEV) {
+	if (typeof window === 'undefined' ? env.DEV : env.NEXT_PUBLIC_DEV) {
 		method(format(new Date(), 'HH:mm:ss'), ...args.filter(Boolean))
 	}
 }

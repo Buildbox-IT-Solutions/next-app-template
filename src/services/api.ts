@@ -74,4 +74,6 @@ class ApiClient {
 	}
 }
 
-export const api = new ApiClient(env.BASE_URL)
+export const api = new ApiClient(
+	typeof window === 'undefined' ? env.BASE_URL : env.NEXT_PUBLIC_BASE_URL,
+)
