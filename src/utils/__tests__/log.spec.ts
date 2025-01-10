@@ -3,7 +3,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { devError, devLog, devWarn } from '../log'
 
 vi.mock('../env', () => ({
-	env: { DEV: true },
+	env: { DEV: true, NEXT_PUBLIC_DEV: true },
 }))
 
 describe('log', () => {

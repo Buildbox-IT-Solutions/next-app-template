@@ -5,6 +5,7 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
 	plugins: [tsconfigPaths(), react()],
 	test: {
+		watch: false,
 		environment: 'jsdom',
 		include: ['src/**/*.spec.ts'],
 		coverage: {

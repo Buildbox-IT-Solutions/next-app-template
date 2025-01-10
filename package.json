@@ -8,6 +8,7 @@
 		"start": "next start",
 		"lint": "biome check . --write --unsafe",
 		"test": "vitest",
+		"test:watch": "vitest --watch",
 		"test:cov": "vitest run --coverage",
 		"test:ui": "vitest --ui",
 		"prepare": "lefthook install"

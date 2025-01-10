@@ -13,7 +13,9 @@ global.fetch = vi.fn()
 vi.mock('~/utils/env', () => ({
 	env: {
 		BASE_URL: 'http://localhost:3000',
+		NEXT_PUBLIC_BASE_URL: 'http://localhost:3000',
 		DEV: true,
+		NEXT_PUBLIC_DEV: true,
 	},
 }))
 
