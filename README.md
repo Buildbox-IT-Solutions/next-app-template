@@ -1,4 +1,4 @@
-# expo-app-template
+# next-app-template
 
 Este é um projeto web criado utilizando [Next.js 15](https://nextjs.org/), um framework React para produção e [Tailwind CSS](https://tailwindcss.com/), um framework CSS utilitário para estilização rápida e eficiente.
 
