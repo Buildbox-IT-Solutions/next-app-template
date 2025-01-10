@@ -9,7 +9,7 @@ pre-push:
   parallel: true
   commands:
     test:
-      run: pnpm dlx lint-staged
+      run: pnpm test
     verify-types:
       run: pnpm tsc
     lint:
