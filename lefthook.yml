@@ -19,5 +19,5 @@ pre-push:
 commit-msg:
   commands:
     commit-lint:
-      run: pnpm dlx commitlint --edit $1
+      run: pnpm dlx commitlint --edit {0}
 
