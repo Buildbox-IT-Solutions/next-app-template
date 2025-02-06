@@ -9,13 +9,16 @@ export default defineConfig({
 		environment: 'jsdom',
 		include: ['src/**/*.spec.ts'],
 		coverage: {
-			include: ['src/**/*.ts'],
+			include: ['src/**/*.ts', 'src/**/container.tsx'],
 			exclude: [
 				'**/*.spec.*',
 				'**/*.d.ts',
 				'**/node_modules/**',
 				'**/enums/**',
 				'**/interfaces/**',
+				'**/styles.ts/**',
+				'**/types.ts/**',
+				'**/i18n/**',
 			],
 		},
 	},
