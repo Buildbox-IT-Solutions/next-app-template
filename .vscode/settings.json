@@ -16,7 +16,7 @@
 	"editor.tabSize": 4,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		".editorconfig": "biome*, lefthook*, commitlint*",
+		".editorconfig": "biome*, lefthook*, commitlint*, .lintstagedrc",
 		".env": ".env*",
 		".gitignore": ".git*",
 		"package.json": "tsconfig*, pnpm-lock*, .nvmrc, .releaserc, tailwind*, postcss*, next.config.ts, vite*"
