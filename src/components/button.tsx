@@ -2,6 +2,7 @@
 
 export function Button() {
 	function handleLogOnClient() {
+		// biome-ignore lint/suspicious/noConsole: Exemple code
 		console.log('Log on client')
 	}
 
