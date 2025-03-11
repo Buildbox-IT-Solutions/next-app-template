@@ -1,3 +1,0 @@
-- [] Setup React Query
-- [] Setup and Test I18n
-- []  

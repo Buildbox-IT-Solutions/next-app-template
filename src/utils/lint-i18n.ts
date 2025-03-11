@@ -39,7 +39,7 @@ class JsonSorter {
 
 		fs.readdir(directoryPath, (err, files) => {
 			if (err) {
-				return console.error('Unable to scan directory: ', err)
+				return
 			}
 
 			for (const file of files) {
@@ -48,6 +48,7 @@ class JsonSorter {
 
 					fs.readFile(filePath, 'utf8', (err, data) => {
 						if (err) {
+							// biome-ignore lint/suspicious/noConsole: handle error
 							console.error('Error reading file:', err)
 							return
 						}
@@ -63,6 +64,7 @@ class JsonSorter {
 							'utf8',
 							(err) => {
 								if (err) {
+									// biome-ignore lint/suspicious/noConsole: handle error
 									console.error('Error writing file:', err)
 								}
 							},

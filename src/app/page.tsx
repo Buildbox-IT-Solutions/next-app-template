@@ -7,6 +7,7 @@ export default function Home() {
 
 	async function handleLogOnServer() {
 		'use server'
+		// biome-ignore lint/suspicious/noConsole: Exemple code
 		console.log('Log on server')
 	}
 
