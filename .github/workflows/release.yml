@@ -21,6 +21,8 @@ jobs:
 
       - name: Update coverage report
         uses: huk10/node-coverage-report@v1
+        with:
+          command: 'pnpm test:cov'
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
