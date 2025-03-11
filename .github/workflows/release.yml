@@ -44,7 +44,7 @@ jobs:
       - name: Code Coverage Summary
         uses: irongut/CodeCoverageSummary@v1.3.0
         with:
-          filename: coverage/clover.xml
+          filename: coverage/coverage-final.json
           fail_below_min: true
           thresholds: '85'
           badge: true
