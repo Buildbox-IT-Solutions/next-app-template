@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Buildbox-IT-Solutions/next-app-template/compare/v1.0.0...v1.1.0) (2025-03-11)
+
+
+### Features
+
+* upgrade tailwind and node version ([2ca408d](https://github.com/Buildbox-IT-Solutions/next-app-template/commit/2ca408d86d8d405b3c4583c6f3244c79051fc8b7))
+
 # 1.0.0 (2025-03-07)
 
 
