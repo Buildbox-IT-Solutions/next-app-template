@@ -41,14 +41,8 @@ jobs:
       - name: Generate code coverage
         run: pnpm test:cov
 
-      - name: Code Coverage Summary
-        uses: irongut/CodeCoverageSummary@v1.3.0
-        with:
-          filename: coverage/coverage-final.json
-          fail_below_min: true
-          thresholds: '85'
-          badge: true
-          indicators: true
+      - name: 'Report Coverage'
+        uses:  davelosert/vitest-coverage-report-action@v2
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
