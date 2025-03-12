@@ -20,7 +20,7 @@ export default defineConfig({
 				'**/types.ts/**',
 				'**/i18n/**',
 			],
-			reporter: ['html', 'json-summary', 'clover'],
+			reporter: ['html', 'json-summary', 'clover', 'json'],
 		},
 	},
 })

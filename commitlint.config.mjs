@@ -19,4 +19,7 @@ export default {
 		],
 		'subject-case': [2, 'always', 'lower-case'],
 	},
+	ignores: [
+		(message) => message.includes('chore(release):')
+	]
 }

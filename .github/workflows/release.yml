@@ -39,7 +39,7 @@ jobs:
         run: pnpm install
 
       - name: Generate code coverage
-        run: pnpm test:cov
+        run: pnpm vitest --coverage.enabled true
 
       - name: 'Report Coverage'
         uses:  davelosert/vitest-coverage-report-action@v2
